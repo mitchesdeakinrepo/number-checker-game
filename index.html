@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Guess The Number Game</title>
+		<!-- Stylesheet -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Lets Play a Game :)</h1>
+		<div id="container" class="container">
+			<div id="game">
+				<h3>
+					I am thinking of a number between 1-100.<br />
+					<span class="h3span">Can you guess it?</span>
+				</h3>
+				<div class="input-wrapper">
+					<input type="number" placeholder="00" id="guess" />
+					<br />
+					<button id="check-btn">Guess</button>
+				</div>
+				<p id="no-of-guesses">No. Of Guesses: 0</p>
+				<p id="guessed-nums">Guessed Numbers are: None</p>
+			</div>
+			<button id="restart">Restart</button>
+			<div class="result">
+				<div id="hint"></div>
+			</div>
+		</div>
+		<!-- Script -->
+		<script src="main.js"></script>
+	</body>
+</html>
